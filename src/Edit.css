@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    position: relative;
+    background-color: pink;
+    background: pink;
+    margin-top: 100px;
+    margin-left: 150px;
+    border: 1px solid black;
+}
+span{
+    position: absolute;
+    left: 190px;
+    top: 30%;
+}
+input:focus + span{
+    position: absolute;
+    top: 170px;
+    background: pink;
+    left: 170px;
+    color: black;
+}
+#age{
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+#age-span{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+#age:focus + span{
+    position: absolute;
+    top: 170px;
+    background: pink;
+    left: 50%;
+    color: black;
+}
+#batch{
+  
+    position: absolute;
+    top: 40%;
+    left: 500px;  
+}
+#batch-span{
+    
+        position: absolute;
+        left: 50%;
+        top: 57%;
+    
+}
+#batch:focus + span{
+    position: absolute;
+    top: 55%;
+    background: pink;
+    left: 50%;
+    color: black;
+}
+
+#course{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+}
+#course-span{
+    
+        position: absolute;
+        left: 190px;
+        top: 58%;
+    
+}
+#course:focus + span{
+    position: absolute;
+    top: 54%;
+    background: pink;
+    left: 200px;
+    color: black;
+}
+.btn{
+    position: relative;
+    left: 60%;
+    top: 200px;
+    padding: 10px;
+    width: 200px;
+    font-size: 19px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.btn:hover{
+    background: gray;
+}
