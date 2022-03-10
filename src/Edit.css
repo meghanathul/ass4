@@ -19,14 +19,8 @@ input{
 span{
     position: absolute;
     left: 190px;
-    top: 30%;
-}
-input:focus + span{
-    position: absolute;
-    top: 170px;
+    top: 27%;
     background: pink;
-    left: 170px;
-    color: black;
 }
 #age{
     position: absolute;
@@ -36,14 +30,8 @@ input:focus + span{
 #age-span{
     position: absolute;
     left: 50%;
-    top: 30%;
-}
-#age:focus + span{
-    position: absolute;
-    top: 170px;
+    top: 27%;
     background: pink;
-    left: 50%;
-    color: black;
 }
 #batch{
   
@@ -55,15 +43,8 @@ input:focus + span{
     
         position: absolute;
         left: 50%;
-        top: 57%;
-    
-}
-#batch:focus + span{
-    position: absolute;
-    top: 55%;
-    background: pink;
-    left: 50%;
-    color: black;
+        top: 55%;
+        background: pink;
 }
 
 #course{
@@ -75,15 +56,8 @@ input:focus + span{
     
         position: absolute;
         left: 190px;
-        top: 58%;
-    
-}
-#course:focus + span{
-    position: absolute;
-    top: 54%;
-    background: pink;
-    left: 200px;
-    color: black;
+        top: 54%;
+        background: pink;
 }
 .btn{
     position: relative;
